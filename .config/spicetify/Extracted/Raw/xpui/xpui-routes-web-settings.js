@@ -1,0 +1,2 @@
+"use strict";(("undefined"!=typeof self?self:global).webpackChunkopen=("undefined"!=typeof self?self:global).webpackChunkopen||[]).push([[9439],{93176:(e,t,a)=>{a.r(t),a.d(t,{default:()=>c});var s=a(67294),n=a(28760),l=a(96206),i=a(58674);const c=()=>s.createElement("div",{className:i.Z.container,role:"presentation","data-testid":"settings-page"},s.createElement(n.Dy,{as:"h1",variant:"canon",className:i.Z.header},l.ag.get("desktop.settings.settings")))}}]);
+//# sourceMappingURL=xpui-routes-web-settings.js.map
