@@ -1,22 +1,7 @@
 
-
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-
-# Path to your oh-my-zsh installation.
 export ZSH="/Users/a_/.oh-my-zsh"
 
-# Set name of the theme to load --- if set to "random", it will
-# load a random theme each time oh-my-zsh is loaded, in which case,
-# to know which specific one was loaded, run: echo $RANDOM_THEME
-# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="ys"
-
-# Set list of themes to pick from when loading at random
-# Setting this variable when ZSH_THEME=random will cause zsh to load
-# a theme from this variable instead of looking in $ZSH/themes/
-# If set to an empty array, this variable will have no effect.
-# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -127,12 +112,12 @@ alias v='nvim'
 alias vim='nvim'
 alias f='nvim $(fzf)'
 
-alias l='exa --icons -l'
-alias ls='exa --icons -a'
+alias l='exa -l'
+alias ls='exa -a'
  
-alias vcfg='nvim /Users/a_/.config/nvim/init.vim'
-alias kcfg='nvim /Users/a_/.config/kitty/kitty.conf'
-alias zshcfg='nvim /Users/a_/.zshrc'
+alias vcfg='nvim ~/.config/nvim/init.vim'
+alias kcfg='nvim ~/.config/kitty/kitty.conf'
+alias zshcfg='nvim ~/.zshrc'
 
 alias torrent='webtorrent'
 alias n='nnn -a -d'
