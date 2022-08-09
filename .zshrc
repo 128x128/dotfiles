@@ -112,8 +112,8 @@ alias v='nvim'
 alias vim='nvim'
 alias f='nvim $(fzf)'
 
-alias l='exa -l'
-alias ls='exa -a'
+#alias l='exa -l'
+#alias ls='exa -a'
  
 alias vcfg='nvim ~/.config/nvim/init.vim'
 alias kcfg='nvim ~/.config/kitty/kitty.conf'
