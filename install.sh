@@ -1,3 +1,7 @@
+#sudo visudo
+
+#$USER ALL=(ALL) NOPASSWD: ALL
+
 #zsh 
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
